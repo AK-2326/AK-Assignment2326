@@ -1,0 +1,243 @@
+@media screen and (max-width: 1200px) {}
+
+
+
+
+@media screen and (max-width: 992px) {
+
+    .header_inner {
+        position: relative;
+
+        ul {
+            flex-direction: column;
+            background-color: rgba(33, 33, 33, 0.77);
+            display: none;
+            position: absolute;
+            top: 100%;
+            width: 100%;
+            padding-block: 1rem;
+            order: 5;
+            border-radius: 1rem;
+
+            li {
+                cursor: pointer;
+                margin-left: 1rem;
+                flex: 100%;
+                padding: 1rem;
+                margin-right: 1rem;
+                border-radius: 1rem;
+
+            }
+
+            li:hover {
+                transition: all ms ease-in-out;
+                background-color: rgba(158, 158, 158, 0.489);
+
+                a {
+                    color: white;
+                }
+            }
+        }
+
+    }
+
+    .trustwell_left-heading {
+
+        p {
+            font-size: 14px;
+        }
+    }
+
+    .cilent_sec {
+        display: flex;
+        justify-content: center;
+
+        .clients_page {
+            .client_handler {
+                display: none;
+            }
+
+            .client_review {
+                display: block;
+                .client_img{
+                    margin-bottom: 1rem;
+                }
+
+            }
+        }
+    }
+
+}
+
+
+
+
+
+@media screen and (min-width: 991.98px) {
+
+    .header_inner {
+
+        .nav_toggle {
+            display: none;
+        }
+    }
+
+
+
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+
+    .sponsor_logos {
+        padding-block: 1rem;
+    }
+
+    
+    .about {
+        .about_sec{
+        padding-bottom: 3rem;
+
+        .info{
+            h2{
+                font-size: 30px;
+            }
+        }
+    }
+    }
+
+
+    .above_map-bg {
+
+        .above_map-bg-content {
+            flex-wrap: wrap;
+
+            .trustwell_left-heading {
+
+                p small {
+                    font-size: 14px;
+                }
+            }
+
+            .trustwell_right-heading {
+                order: 2;
+
+            }
+        }
+    }
+
+    .map_bg-cards-wrapper {
+        flex-wrap: wrap;
+
+        .map_card {
+            --map_cardflexvalmedia: 100%;
+            flex: var(--map_cardflexvalmedia);
+            width: var(--map_cardflexvalmedia);
+        }
+    }
+
+    .white_bg-cards-wrapper {
+        flex-wrap: wrap;
+        padding-block: 0;
+
+        .white_card {
+            flex: 100%;
+            width: 100%;
+
+        }
+    }
+
+    .customer_review {
+        text-align: center;
+
+        .review_content-holder h2 {
+            font-size: 24px;
+
+        }
+    }
+
+    .workers_profiles-sec{
+
+    .workers_profile-wrapper{
+
+        .profile_holder{
+            --flexValworker_profile: 50%;
+        }
+    }
+}
+
+
+}
+
+@media screen and (min-width: 768px) {}
+
+
+@media screen and (max-width: 552px) {
+
+    .header_inner {
+
+        .menu_button {
+            margin-left: 1rem;
+            display: none;
+            transition: all 200ms ease-in-out;
+        }
+
+    }
+
+    .top_banner {
+
+        figcaption {
+
+            p small {
+                font-size: 9px;
+            }
+
+            h1 {
+                font-size: 30px;
+            }
+        }
+    }
+
+    .about {
+        margin-bottom: 1rem;
+        padding-top: 2rem;
+    }
+
+    .map_card {
+        padding: 1rem;
+    }
+
+    .workers_profiles-sec{
+
+    .workers_profile-wrapper{
+
+        .profile_holder{
+            --flexValworker_profile: 100%;
+        }
+    }
+}
+
+
+
+
+}
+
+@media screen and (min-width: 552px) {
+
+    .contact_btn {
+        display: none;
+    }
+
+
+}
+
+
+
+@media screen and (max-width: 468px) {
+    .about_sec {
+        padding-block: 1rem;
+    }
+
+}
