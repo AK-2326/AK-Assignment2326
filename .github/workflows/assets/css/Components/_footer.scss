@@ -1,0 +1,87 @@
+.footer_inner{
+    padding-block: 5rem;
+
+    .web_shortcuts{
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: space-between;
+        gap: 2rem;
+
+        .one_sec{
+            color: white;
+
+            p{
+                margin-top: 1rem;
+            }
+
+            .brand_logo{
+                display: block;
+                width: auto;
+                height: 3rem;
+            }
+
+            .social_links{
+                display: flex;
+
+            .socials_icons{
+                margin-right: .8rem;
+                display: block;
+                width: auto;
+                height: 2.5rem;
+                
+            }
+        }
+        }
+
+        .web_links{
+            color: white;
+
+            li{
+                list-style: none;
+                margin-bottom: 1rem;
+                a{
+                    text-decoration: none;
+                    color: white;
+                }
+            }
+
+            li a:hover{
+                text-decoration: underline;
+            }
+        }
+    }
+}
+
+.finally{
+    background-color: var(--hover_btn-card-color);
+    padding-block: 1.5rem;
+    .mubarak_ho{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        color: white;
+        gap: 2rem;
+
+        p{
+            margin-bottom: 0;
+        }
+
+        ul{
+            display: flex;
+            gap: 1rem;
+
+            li{
+                list-style: none;
+                a{
+                    padding: .5rem .5rem;
+                    text-decoration: none;
+                    color: white;
+                }
+            }
+        }
+
+        a:hover{
+            text-decoration: underline;
+        }
+    }
+}
